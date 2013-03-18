@@ -43,7 +43,6 @@
     },
 
     deleteContact: function() {
-      console.log(this.model);
       this.model.destroy();
     },
   });
