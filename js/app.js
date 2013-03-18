@@ -24,8 +24,7 @@
 
 
   var Directory = Backbone.Collection.extend({
-    model: Contact,
-    url: "http://localhost:3000/contacts"
+    model: Contact
   });
 
   var ContactView = Backbone.View.extend({
